@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:ujjwal-tiwari.github.io",
+  "verificationMethod": [
+    {
+      "id": "did:web:ujjwal-tiwari.github.io#owner",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:ujjwal-tiwari.github.io",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "9KE+sR1x1z/Ph2eYJRFdtn31NwPF+yP1rWKSIftSXRM=",
+        "y": "KGZ4dCbGvqk1Ogx30rThS+bJ5oT+WYFFlTfnwL7YfYI="
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:ujjwal-tiwari.github.io#owner"
+  ],
+  "assertionMethod": [
+    "did:web:ujjwal-tiwari.github.io#owner"
+  ]
+}
